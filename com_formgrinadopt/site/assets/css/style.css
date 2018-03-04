@@ -1,0 +1,179 @@
+
+/* 
+    com_formgrinadopt
+*/
+
+
+#wholeform,
+#tg_coapplicant,
+#tg_prevmemdate,
+#tg_afbehavior,
+#tg_coapplicant,
+#tg_prevmemdate,
+#tg_afbehavior,
+#tg_afresearch,
+#tg_rescue,
+#tg_disabilitydesc,
+#tg_allergiesdesc,
+#tg_daycarenum,
+#tg_petcarenum,
+#tg_petdesc,
+#tg_cspecneedsdesc,
+#tg_renter,
+#tg_nofence,
+#tg_fenceE,
+#tg_appliedOther,
+#tg_prevpets,
+#tg_prevrescue,
+#tg_breddogdesc,
+#tg_nocollardesc,
+#tg_usecratedesc,
+#tg_trainerdesc,
+#tg_otherinfodesc,
+#tg_histnamedesc,
+#tg_prevvetdesc,
+#tg_cspayeddesc,
+#tg_cvacdesc,
+#tg_chwtestdesc,
+#tg_chwregdesc,
+#tg_pspayeddesc,
+#tg_pvacdesc,
+#tg_phwtestdesc,
+#tg_phwregdesc,
+#tg_soldpetdesc,
+#tg_pspecneedsdesc {
+    display: none;
+}
+  
+
+  
+#grinform input[type=text],
+#grinform textarea,
+#grinform select,
+#grinform label {
+    font-family: Ariel, Helvetica, sans-serif;
+    font-size:14px;    
+  }
+  
+#grinform textarea {
+  width:50%;
+}
+  
+#grinform {
+  width:70%;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top:20px; 
+  margin-left:200px;
+  padding-left:10px;
+  padding-bottom: 50px;
+  font-family: Ariel, Helvetica, sans-serif;
+  font-size:14px;
+}
+
+#grinform select:focus,  
+#grinform textarea:focus,   
+input[type=text]:focus {
+    background-color: #fff8dc;
+}
+  
+  
+ 
+/* #grinform select:focus,  
+#grinform textarea:focus {
+  background-color: lightblue;  
+} */
+  
+  .sectionarea {
+    margin-top:50px;
+    font-size:25px;
+    font-type:bold;
+    text-decoration: underline;
+  }
+  
+  .questionarea {
+    border: 0px solid black;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+  }
+  
+  .question {
+    margin-bottom:1px;
+  }
+  
+  .labeledselect {
+    margin-left:2px;
+    margin-right:1px;
+    float:left;
+  }
+  
+  .questionareasub {
+    border: 0px solid black;
+    /* margin-bottom: 20px; */
+    margin-top: 5px;
+  }
+  
+  .lbltag {
+    display: inline-block;
+    width:100px;
+    padding-left:50px;
+    margin-right: 5px;
+    text-align:right;
+    border: 0px solid black;
+  }
+  
+  .selectvalue {
+    padding-left:25px;
+    padding-right:2px;
+  }
+  
+  .pleasenote {
+    color:#000000;
+    border:1px solid #000000;
+    border-radius: 15px;
+    margin: 15px 25px 5px 5px;
+    padding: 15px;
+    font-type:bold;
+    font-size:14px;
+  }
+  
+  .showmore {
+    color:#000000;
+    border:0px solid #000000;
+    font-type:bold;
+    font-size:12px;
+    font-style:italic;
+    margin: 1px 25px 5px 5px;
+  }
+  
+  .buttonarea {
+    font-weight:bold;
+    width:55%;
+    margin-top:12px;
+    margin-bottom:12px;
+    margin-right:15px;
+    float:left;
+    text-align:right;
+    clear:left;
+  }
+  
+  .button {
+    width:150px;
+    border: 1px solid #a0522d;
+    border-radius:10px;
+    padding: 5px;
+    text-align:center;
+    background-color:#fff8dc;
+    color:#a0522d;
+    font-weight:bold;
+    float:right;
+  }
+  
+  
+ .button:hover {
+    cursor:pointer;
+    color:#fff8dc;
+    background-color:#a0522d;    
+ }
+ 
+  
